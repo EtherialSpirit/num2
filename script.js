@@ -12,7 +12,7 @@ document.querySelector('#ok').onclick = function() {
   const positionY1 = parseInt(letterValue(positionY));
   const positionX1 = parseInt(positionX);
   
-  const reg = /[a-h]{1}[1-8]{1}/;
+  const reg = /^[a-h]{1}[1-8]{1}$/;
 	
   //помещаем вычисления хода в массив
   var positionArray = [];
